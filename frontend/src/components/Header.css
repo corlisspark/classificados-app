@@ -1,0 +1,20 @@
+.App-header {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 100;
+    padding: 0 1.7rem;
+}
+
+.App-header .link {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.App-header .link:hover {
+    background-color: lightgreen;
+    color: black;
+}

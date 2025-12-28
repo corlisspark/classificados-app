@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 20%;
+}
+
+label {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+input, textarea, button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+textarea {
+    min-height: 5rem;
+}
+
+button {
+    background-color: lightgreen;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 180, 0);
+    color: white;
+}
+
+@media only screen and (max-width: 650px) {
+    form {
+        margin: 2rem 5%;
+    }
+}

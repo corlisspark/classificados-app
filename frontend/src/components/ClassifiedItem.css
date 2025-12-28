@@ -1,0 +1,22 @@
+.item {
+    width: 15.7rem;
+    min-height: 5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    text-align: start;
+}
+
+.item label {
+    font-size: 13px;
+}
+
+.item p {
+    margin-top: 0.5rem;
+}
+
+
+@media only screen and (max-width: 600px) { /* smartphone screen */
+    .item {
+        width: 25rem;
+    }
+}

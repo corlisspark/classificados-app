@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #6e6e6e;
+}
+
+.App {
+  text-align: center;
+  background-color: #eeeeee;
+  height: 100vh;
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: 600px) { /* smartphone screen */
+  .App {
+    padding: 0rem;
+  }
+}
+
+.div-grey {
+  background-color: #cccccc;
+  color: #6e6e6e;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.div-grey:hover {
+  border-radius: 0;
+}
+
+.card:hover {
+  background-color: white;
+  color: rgb(61, 61, 61);
+}

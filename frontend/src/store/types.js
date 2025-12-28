@@ -1,0 +1,6 @@
+export const GET_CLASSIFIEDS = 'GET_CLASSIFIEDS';
+export const GET_CLASSIFIEDBYID = 'GET_CLASSIFIEDBYID';
+export const CREATE = 'CREATE';
+export const UPDATE = 'UPDATE';
+export const DELETE = 'DELETE';
+export const CLASSIFIEDS_ERROR = 'CLASSIFIEDS_ERROR';
