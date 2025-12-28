@@ -1,0 +1,9 @@
+[build]
+  buildCommand = "cd backend/ClassifiedsAPI/ClassifiedsAPI && dotnet publish -c Release -o out"
+
+[deploy]
+  startCommand = "cd backend/ClassifiedsAPI/ClassifiedsAPI && dotnet out/ClassifiedsAPI.dll"
+  
+[env]
+  ASPNETCORE_ENVIRONMENT = "Production"
+  ASPNETCORE_URLS = "http://*:$PORT"
