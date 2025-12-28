@@ -8,5 +8,6 @@ export {
     Button,
     ArrowBackIosIcon,
     DeleteIcon,
-    EditIcon
+    EditIcon,
+    LibraryAddIcon
 };

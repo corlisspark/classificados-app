@@ -4,8 +4,7 @@ const port = '5001';
 
 const baseURL = `https://localhost:${port}/api/`;
 
-export default {
-
+const api = {
     classifieds(url = baseURL + 'classifieds/') {
         return {
             fetchAll: () => axios.get(url),
@@ -15,7 +14,9 @@ export default {
             delete: id => axios.delete(url + id)
         }
     }
-}
+};
+
+export default api;
 
 // export default api;
 
