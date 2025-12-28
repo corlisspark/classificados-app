@@ -1,8 +1,9 @@
 [build]
-  buildCommand = "cd backend/ClassifiedsAPI/ClassifiedsAPI && dotnet publish -c Release -o out"
+  builder = "DOCKERFILE"
+  dockerfilePath = "backend/Dockerfile"
 
 [deploy]
-  startCommand = "cd backend/ClassifiedsAPI/ClassifiedsAPI && dotnet out/ClassifiedsAPI.dll"
+  startCommand = "dotnet ClassifiedsAPI.dll"
   
 [env]
   ASPNETCORE_ENVIRONMENT = "Production"
